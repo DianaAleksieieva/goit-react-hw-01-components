@@ -1,0 +1,50 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.statistics {
+  padding-top: 10px;
+  color: grey;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: lightgray;
+}
+.item {
+  padding: 20px;
+  width: 100px;
+}
+.label {
+  font-size: 16px;
+}
+.percentage {
+  font-size: 20px;
+  font-weight: 400;
+}
+.id-1 {
+  background-color: red;
+}
+.id-2 {
+  background-color: purple;
+}
+.id-3 {
+  background-color: orange;
+}
+.id-4 {
+  background-color: blue;
+}
+.id-5 {
+  background-color: rgb(24, 160, 42);
+}

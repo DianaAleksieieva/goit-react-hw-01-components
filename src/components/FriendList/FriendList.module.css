@@ -1,0 +1,50 @@
+.container {
+  background-color: rgb(236, 236, 236);
+}
+.friendList {
+  display: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.friendListItem {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: white;
+  max-width: 400px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.friendListItem:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.avatar {
+  margin-left: 35px;
+  width: 75px;
+}
+.name {
+  font-size: 30px;
+  font-weight: 600px;
+  margin-left: 30px;
+}
+.isOnline {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  margin: 0;
+}
+.true {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(5, 195, 5);
+}
+.false {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: red;
+}

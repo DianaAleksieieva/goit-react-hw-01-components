@@ -1,0 +1,30 @@
+.container {
+  margin-top: 50px;
+}
+.transactionHistory {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  color: grey;
+}
+.head {
+  height: 50px;
+  background-color: rgb(0, 195, 186);
+  color: white;
+}
+.column {
+  width: 300px;
+  border: 1px solid rgb(241, 241, 241);
+}
+.body {
+  border: 1px solid rgb(241, 241, 241);
+}
+.trow {
+  height: 35px;
+}
+.trow:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
+.tcolumn {
+  border: 0.5px solid rgb(241, 241, 241);
+}
