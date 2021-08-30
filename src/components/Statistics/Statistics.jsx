@@ -4,9 +4,7 @@ export const Statistics = ({ statistics, title }) => {
   return (
     <div className={css.container}>
       <section className={css.statistics}>
-        <h2 className={css.title} text="Upload stats">
-          {title}
-        </h2>
+        <h2 className={css.title}>{title}</h2>
 
         <ul className={css.statList}>
           {statistics.map(statistics => (

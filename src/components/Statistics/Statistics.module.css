@@ -3,7 +3,6 @@
   margin-bottom: 50px;
 }
 .statistics {
-  padding-top: 10px;
   color: grey;
   width: 400px;
   text-align: center;
@@ -12,7 +11,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .title {
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 25px;
 }
 
